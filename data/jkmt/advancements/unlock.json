@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "jk": {
+            "trigger": "location"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "jkmt:netherite",
+            "jkmt:diamond",
+            "jkmt:gold",
+            "jkmt:iron",
+            "jkmt:stone",
+            "jkmt:wood"
+        ]
+    }
+}

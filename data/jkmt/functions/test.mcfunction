@@ -1,0 +1,22 @@
+clear
+give @s diamond_axe
+give @s diamond_pickaxe
+give @s diamond_hoe
+give @s diamond_shovel
+give @s golden_axe
+give @s golden_pickaxe
+give @s golden_hoe
+give @s golden_shovel
+give @s stone_axe
+give @s stone_pickaxe
+give @s stone_hoe
+give @s stone_shovel
+give @s iron_axe
+give @s iron_pickaxe
+give @s iron_hoe
+give @s iron_shovel
+give @s wooden_axe
+give @s wooden_pickaxe
+give @s wooden_hoe
+give @s wooden_shovel
+give @s crafting_table

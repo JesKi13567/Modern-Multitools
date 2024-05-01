@@ -1,0 +1,40 @@
+{
+  "type": "crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "iron_axe"
+    },
+    {
+      "item": "iron_pickaxe"
+    },
+    {
+      "item": "iron_hoe"
+    },
+    {
+      "item": "iron_shovel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "iron_axe",
+    "components": {
+      "lore":["{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"],
+      "custom_data": {
+        "jkmt": [
+          "iron"
+        ]
+      },
+      "max_damage": 1000,
+      "tool": {
+        "rules": [
+          {
+            "blocks": "#jkmt:iron",
+            "speed": 6,
+            "correct_for_drops": true
+          }
+        ]
+      }
+    }
+  }
+}

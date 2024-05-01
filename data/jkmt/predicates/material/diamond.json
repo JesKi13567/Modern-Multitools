@@ -1,0 +1,17 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "custom_data": {
+            "jkmt": [
+              "diamond"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

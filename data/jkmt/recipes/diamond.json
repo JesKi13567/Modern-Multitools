@@ -1,0 +1,40 @@
+{
+  "type": "crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "diamond_axe"
+    },
+    {
+      "item": "diamond_pickaxe"
+    },
+    {
+      "item": "diamond_hoe"
+    },
+    {
+      "item": "diamond_shovel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "diamond_axe",
+    "components": {
+      "lore":["{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"],
+      "custom_data": {
+        "jkmt": [
+          "diamond"
+        ]
+      },
+      "max_damage": 6244,
+      "tool": {
+        "rules": [
+          {
+            "blocks": "#jkmt:diamond",
+            "speed": 8,
+            "correct_for_drops": true
+          }
+        ]
+      }
+    }
+  }
+}

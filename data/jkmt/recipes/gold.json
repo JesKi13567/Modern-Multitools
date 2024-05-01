@@ -1,0 +1,40 @@
+{
+  "type": "crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "golden_axe"
+    },
+    {
+      "item": "golden_pickaxe"
+    },
+    {
+      "item": "golden_hoe"
+    },
+    {
+      "item": "golden_shovel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "golden_axe",
+    "components": {
+      "lore":["{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"],
+      "custom_data": {
+        "jkmt": [
+          "gold"
+        ]
+      },
+      "max_damage": 128,
+      "tool": {
+        "rules": [
+          {
+            "blocks": "#jkmt:wood",
+            "speed": 12,
+            "correct_for_drops": true
+          }
+        ]
+      }
+    }
+  }
+}
