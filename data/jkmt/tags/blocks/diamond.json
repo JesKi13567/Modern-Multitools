@@ -2,8 +2,9 @@
     "values": [
         "#mineable/axe",
         "#mineable/hoe",
-        "#mineable/pickaxe",
         "#mineable/shovel",
-        "#jkmt:glass"
+        "#mineable/pickaxe",
+        "#jkmt:glass",
+        "cobweb"
     ]
 }
