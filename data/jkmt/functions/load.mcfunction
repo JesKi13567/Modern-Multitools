@@ -1,4 +1,4 @@
-# 当前版本v1.0
+# 当前版本v1.0.2
 scoreboard objectives remove jkmt.mem
 scoreboard objectives add jkmt.mem dummy
 scoreboard players set #10 jkmt.mem 10
