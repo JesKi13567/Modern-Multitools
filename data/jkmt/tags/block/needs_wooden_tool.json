@@ -268,6 +268,20 @@
         "mud_bricks",
         "mud_brick_stairs",
         "mud_brick_slab",
-        "packed_mud"
+        "packed_mud",
+        "tuff_slab",
+        "tuff_stairs",
+        "tuff_wall",
+        "chiseled_tuff",
+        "polished_tuff",
+        "polished_tuff_slab",
+        "polished_tuff_stairs",
+        "polished_tuff_wall",
+        "tuff_bricks",
+        "tuff_brick_slab",
+        "tuff_brick_stairs",
+        "tuff_brick_wall",
+        "chiseled_tuff_bricks",
+        "heavy_core"
     ]
 }
