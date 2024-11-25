@@ -2,24 +2,18 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    {
-      "item": "iron_axe"
-    },
-    {
-      "item": "iron_pickaxe"
-    },
-    {
-      "item": "iron_hoe"
-    },
-    {
-      "item": "iron_shovel"
-    }
+    "iron_axe",
+    "iron_pickaxe",
+    "iron_hoe",
+    "iron_shovel"
   ],
   "result": {
     "count": 1,
     "id": "iron_axe",
     "components": {
-      "lore":["{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"],
+      "lore": [
+        "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
+      ],
       "custom_data": {
         "jkmt": [
           "iron"

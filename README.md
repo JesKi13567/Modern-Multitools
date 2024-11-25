@@ -1,4 +1,4 @@
-# Modern-Multitools (MC 1.21)
+# Modern-Multitools (MC 1.21.2)
 
 ## zh_cn
 

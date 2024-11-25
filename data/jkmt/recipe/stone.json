@@ -2,24 +2,18 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    {
-      "item": "stone_axe"
-    },
-    {
-      "item": "stone_pickaxe"
-    },
-    {
-      "item": "stone_hoe"
-    },
-    {
-      "item": "stone_shovel"
-    }
+    "stone_axe",
+    "stone_pickaxe",
+    "stone_hoe",
+    "stone_shovel"
   ],
   "result": {
     "count": 1,
     "id": "stone_axe",
     "components": {
-      "lore":["{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"],
+      "lore": [
+        "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
+      ],
       "custom_data": {
         "jkmt": [
           "stone"
