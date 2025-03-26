@@ -1,0 +1,29 @@
+{
+  "type": "smithing_transform",
+  "template": [
+    "shield"
+  ],
+  "base": [
+    "wooden_sword"
+  ],
+  "addition": [
+    "iron_ingot"
+  ],
+  "result": {
+    "id": "wooden_sword",
+    "components": {
+      "lore": [
+        {
+          "text": "🛡",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "blocks_attacks": {
+        "block_delay_seconds": 0.25,
+        "block_sound": "item.shield.block",
+        "disabled_sound": "item.shield.block"
+      }
+    }
+  }
+}

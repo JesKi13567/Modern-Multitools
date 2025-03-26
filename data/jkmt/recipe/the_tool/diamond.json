@@ -2,29 +2,33 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "netherite_axe",
-    "netherite_pickaxe",
-    "netherite_hoe",
-    "netherite_shovel"
+    "diamond_axe",
+    "diamond_pickaxe",
+    "diamond_hoe",
+    "diamond_shovel"
   ],
   "result": {
     "count": 1,
-    "id": "netherite_axe",
+    "id": "diamond_axe",
     "components": {
       "lore": [
-        "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
+        {
+          "text": "🔨",
+          "color": "aqua",
+          "italic": false
+        }
       ],
       "custom_data": {
         "jkmt": [
-          "netherite"
+          "diamond"
         ]
       },
-      "max_damage": 8124,
+      "max_damage": 6244,
       "tool": {
         "rules": [
           {
             "blocks": "#jkmt:diamond",
-            "speed": 9,
+            "speed": 8,
             "correct_for_drops": true
           }
         ]

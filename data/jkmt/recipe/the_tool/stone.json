@@ -2,29 +2,33 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "golden_axe",
-    "golden_pickaxe",
-    "golden_hoe",
-    "golden_shovel"
+    "stone_axe",
+    "stone_pickaxe",
+    "stone_hoe",
+    "stone_shovel"
   ],
   "result": {
     "count": 1,
-    "id": "golden_axe",
+    "id": "stone_axe",
     "components": {
       "lore": [
-        "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
+        {
+          "text": "🔨",
+          "color": "aqua",
+          "italic": false
+        }
       ],
       "custom_data": {
         "jkmt": [
-          "gold"
+          "stone"
         ]
       },
-      "max_damage": 128,
+      "max_damage": 524,
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:wood",
-            "speed": 12,
+            "blocks": "#jkmt:stone",
+            "speed": 4,
             "correct_for_drops": true
           }
         ]

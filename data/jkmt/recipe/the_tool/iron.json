@@ -2,29 +2,33 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "diamond_axe",
-    "diamond_pickaxe",
-    "diamond_hoe",
-    "diamond_shovel"
+    "iron_axe",
+    "iron_pickaxe",
+    "iron_hoe",
+    "iron_shovel"
   ],
   "result": {
     "count": 1,
-    "id": "diamond_axe",
+    "id": "iron_axe",
     "components": {
       "lore": [
-        "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
+        {
+          "text": "🔨",
+          "color": "aqua",
+          "italic": false
+        }
       ],
       "custom_data": {
         "jkmt": [
-          "diamond"
+          "iron"
         ]
       },
-      "max_damage": 6244,
+      "max_damage": 1000,
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:diamond",
-            "speed": 8,
+            "blocks": "#jkmt:iron",
+            "speed": 6,
             "correct_for_drops": true
           }
         ]
