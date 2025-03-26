@@ -4,7 +4,6 @@
         "#mineable/hoe",
         "#mineable/shovel",
         "#mineable/pickaxe",
-        "#jkmt:glass",
-        "cobweb"
+        "#jkmt:extra"
     ]
 }

@@ -4,7 +4,6 @@
         "#mineable/hoe",
         "#mineable/shovel",
         "#jkmt:needs_wooden_tool",
-        "#jkmt:glass",
-        "cobweb"
+        "#jkmt:extra"
     ]
 }
