@@ -2,10 +2,18 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "iron_axe",
-    "iron_pickaxe",
-    "iron_hoe",
-    "iron_shovel"
+    {
+      "item": "iron_axe"
+    },
+    {
+      "item": "iron_pickaxe"
+    },
+    {
+      "item": "iron_hoe"
+    },
+    {
+      "item": "iron_shovel"
+    }
   ],
   "result": {
     "count": 1,

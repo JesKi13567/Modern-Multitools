@@ -2,10 +2,18 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "diamond_axe",
-    "diamond_pickaxe",
-    "diamond_hoe",
-    "diamond_shovel"
+    {
+      "item": "diamond_axe"
+    },
+    {
+      "item": "diamond_pickaxe"
+    },
+    {
+      "item": "diamond_hoe"
+    },
+    {
+      "item": "diamond_shovel"
+    }
   ],
   "result": {
     "count": 1,

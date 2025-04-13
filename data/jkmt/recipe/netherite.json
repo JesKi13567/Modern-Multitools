@@ -2,10 +2,18 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "netherite_axe",
-    "netherite_pickaxe",
-    "netherite_hoe",
-    "netherite_shovel"
+    {
+      "item": "netherite_axe"
+    },
+    {
+      "item": "netherite_pickaxe"
+    },
+    {
+      "item": "netherite_hoe"
+    },
+    {
+      "item": "netherite_shovel"
+    }
   ],
   "result": {
     "count": 1,

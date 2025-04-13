@@ -2,10 +2,18 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "golden_axe",
-    "golden_pickaxe",
-    "golden_hoe",
-    "golden_shovel"
+    {
+      "item": "golden_axe"
+    },
+    {
+      "item": "golden_pickaxe"
+    },
+    {
+      "item": "golden_hoe"
+    },
+    {
+      "item": "golden_shovel"
+    }
   ],
   "result": {
     "count": 1,

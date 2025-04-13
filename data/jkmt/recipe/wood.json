@@ -2,10 +2,18 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "wooden_axe",
-    "wooden_pickaxe",
-    "wooden_hoe",
-    "wooden_shovel"
+    {
+      "item": "wooden_axe"
+    },
+    {
+      "item": "wooden_pickaxe"
+    },
+    {
+      "item": "wooden_hoe"
+    },
+    {
+      "item": "wooden_shovel"
+    }
   ],
   "result": {
     "count": 1,
