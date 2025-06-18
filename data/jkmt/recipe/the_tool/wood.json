@@ -12,11 +12,7 @@
     "id": "wooden_axe",
     "components": {
       "lore": [
-        {
-          "text": "🔨",
-          "color": "aqua",
-          "italic": false
-        }
+        "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
       ],
       "custom_data": {
         "jkmt": [
@@ -27,7 +23,11 @@
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:wood",
+            "blocks": "#incorrect_for_wooden_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#jkmt:all",
             "speed": 2,
             "correct_for_drops": true
           }

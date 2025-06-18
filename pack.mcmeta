@@ -1,6 +1,7 @@
 {
     "pack": {
-        "pack_format": 71,
+        "pack_format": 57,
+        "supported_formats": [48, 80],
         "description": [
             "",
             {
@@ -8,21 +9,34 @@
                 "color": "gold"
             },
             {
-                "text": " 多功能工具\n",
+                "text": " 多功能工具",
                 "color": "yellow"
             },
+            "\n",
             {
                 "text": "Modern",
                 "color": "gold"
             },
             {
-                "text": " Multitools\n",
+                "text": " Multitools",
                 "color": "yellow"
             },
-            "by ",
+            "\nBy ",
             {
                 "text": "JK137",
                 "color": "aqua"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": 48,
+                "directory": "1_21-1_21_1"
+            },
+            {
+                "formats": [71, 80],
+                "directory": "1_21_5-1_21_6"
             }
         ]
     }

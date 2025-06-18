@@ -19,14 +19,14 @@ give @s wooden_axe
 give @s wooden_pickaxe
 give @s wooden_hoe
 give @s wooden_shovel
+give @s netherite_axe
+give @s netherite_pickaxe
+give @s netherite_hoe
+give @s netherite_shovel
 give @s crafting_table
-give @s diamond_sword
-give @s golden_sword
-give @s stone_sword
-give @s iron_sword
-give @s wooden_sword
 give @s smithing_table
-give @s iron_ingot 16
+give @s iron_ingot 5
+give @s shield
 give @s shield
 give @s shield
 give @s shield

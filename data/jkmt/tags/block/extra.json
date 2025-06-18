@@ -5,7 +5,6 @@
         "#jkmt:glass",
         "#jkmt:head",
         "cobweb",
-        "beacon",
-        "trial_spawner"
+        "beacon"
     ]
 }

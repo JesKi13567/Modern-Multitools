@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "jkmt": {
+            "trigger": "location"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "jkmt:the_tool/diamond",
+            "jkmt:the_tool/gold",
+            "jkmt:the_tool/iron",
+            "jkmt:the_tool/netherite",
+            "jkmt:the_tool/stone",
+            "jkmt:the_tool/wood"
+        ]
+    }
+}

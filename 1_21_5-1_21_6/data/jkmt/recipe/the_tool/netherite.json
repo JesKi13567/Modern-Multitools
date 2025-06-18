@@ -2,33 +2,37 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "golden_axe",
-    "golden_pickaxe",
-    "golden_hoe",
-    "golden_shovel"
+    "netherite_axe",
+    "netherite_pickaxe",
+    "netherite_hoe",
+    "netherite_shovel"
   ],
   "result": {
     "count": 1,
-    "id": "golden_axe",
+    "id": "netherite_axe",
     "components": {
       "lore": [
-        "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
+        {
+          "text": "🔨",
+          "color": "aqua",
+          "italic": false
+        }
       ],
       "custom_data": {
         "jkmt": [
-          "gold"
+          "netherite"
         ]
       },
-      "max_damage": 128,
+      "max_damage": 8124,
       "tool": {
         "rules": [
           {
-            "blocks": "#incorrect_for_gold_tool",
+            "blocks": "#incorrect_for_netherite_tool",
             "correct_for_drops": false
           },
           {
             "blocks": "#jkmt:all",
-            "speed": 12,
+            "speed": 9,
             "correct_for_drops": true
           }
         ]
