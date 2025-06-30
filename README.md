@@ -1,4 +1,4 @@
-# Modern-Multitools (MC 1.21.X) v1.3
+# Modern-Multitools (MC 1.21.X) v1.3.1
 
 - [简体中文](#zh_cn)
 - [English](#en_us)
@@ -16,7 +16,7 @@
 - 为了使用某些工具的特殊功能（如锹压平泥土），将工具拿在主手再按副手切换键（默认为F）来切换工具（甚至剑）。
 
 #### 额外方块
-玻璃、玻璃板、羊毛、羊毛地毯、头颅、蜘蛛网、信标。
+玻璃＆玻璃板、头颅、羊毛＆羊毛地毯、床、蜡烛、蛋糕、蜜脾块、海晶灯、荧石、红石灯、细雪、仙人掌、海龟蛋、嗅探兽蛋、蛙明灯、蜘蛛网、信标。
 
 ### 使用 任意材质的剑 + 盾牌 + 铁锭 进行*锻造*，获得盾升级的剑。（MC 1.21.5+）
 
@@ -37,7 +37,7 @@ Hint: Netherite Multitools should be **crafted** instead of being ~~smithed~~.
 - In order to make use of some special uses(e.g. make path by shovel), put your multitool in your mainhand then press swapoffhand key(default: F) to switch tools(even sword).
 
 #### Extra-Blocks
-Glass, Glass Pane, Wool, Wool Carpet, Heads, Cobweb & Beacon.
+Glass & Glass Pane, Heads, Wool & Wool Carpet, Beds, Candles, Cake, Honeycomb Block, Sea Lantern, Glowstone, Redstone Lamp, Powder Snow, Cactus, Turtle Egg, Sniffer Egg, Froglight, Cobweb & Beacon.
 
 ### Putting your any-material-sword + shield + iron_ingot to *SMITH* sword-with-shield-upgrade. (MC 1.21.5+)
 

@@ -1,6 +1,4 @@
 # 材质数
-scoreboard players set @s jkmt.mem -1
-
 execute if items entity @s weapon.offhand #jkmt:material/wood[custom_data={jkmt: ["wood"]}] run scoreboard players set @s jkmt.mem 10
 execute if items entity @s weapon.offhand #jkmt:material/stone[custom_data={jkmt: ["stone"]}] run scoreboard players set @s jkmt.mem 20
 execute if items entity @s weapon.offhand #jkmt:material/iron[custom_data={jkmt: ["iron"]}] run scoreboard players set @s jkmt.mem 30

@@ -1,9 +1,9 @@
 # 开始转换
-## 十位数（材质种类）
 scoreboard players operation #temp1 jkmt.mem = @p[scores={jkmt.mem=1..}] jkmt.mem
+scoreboard players operation #temp0 jkmt.mem = #temp1 jkmt.mem
+## 十位数（材质种类）
 scoreboard players operation #temp1 jkmt.mem /= #10 jkmt.mem
 ## 个位数（工具种类）
-scoreboard players operation #temp0 jkmt.mem = @p[scores={jkmt.mem=1..}] jkmt.mem
 scoreboard players operation #temp0 jkmt.mem %= #10 jkmt.mem
 scoreboard players add #temp0 jkmt.mem 1
 execute if score #temp0 jkmt.mem matches 6.. run scoreboard players set #temp0 jkmt.mem 1

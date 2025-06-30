@@ -1,9 +1,24 @@
 {
     "values": [
-        "#wool",
-        "#wool_carpets",
         "#jkmt:glass",
         "#jkmt:head",
+        "#wool",
+        "#wool_carpets",
+        "#beds",
+        "#candles",
+        "#candle_cakes",
+        "cake",
+        "honeycomb_block",
+        "sea_lantern",
+        "glowstone",
+        "redstone_lamp",
+        "powder_snow",
+        "cactus",
+        "turtle_egg",
+        "sniffer_egg",
+        "pearlescent_froglight",
+        "verdant_froglight",
+        "ochre_froglight",
         "cobweb",
         "beacon"
     ]

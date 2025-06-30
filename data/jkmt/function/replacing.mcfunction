@@ -12,3 +12,5 @@ execute as @e[limit=1, type=item_display, tag=jkmt_display] run function jkmt:sw
 item replace entity @s weapon.offhand from entity @s weapon.mainhand
 item replace entity @s weapon.mainhand from entity @e[limit=1, type=item_display, tag=jkmt_display] container.0
 kill @e[type=item_display, tag=jkmt_display]
+# 重置
+scoreboard players reset @s jkmt.mem
