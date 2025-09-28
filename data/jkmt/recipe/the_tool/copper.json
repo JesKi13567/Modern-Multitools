@@ -2,14 +2,14 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "wooden_axe",
-    "wooden_pickaxe",
-    "wooden_hoe",
-    "wooden_shovel"
+    "copper_axe",
+    "copper_pickaxe",
+    "copper_hoe",
+    "copper_shovel"
   ],
   "result": {
     "count": 1,
-    "id": "wooden_axe",
+    "id": "copper_axe",
     "components": {
       "lore": [
         {
@@ -20,19 +20,20 @@
       ],
       "custom_data": {
         "jkmt": [
-          "wood"
+          "this",
+          "copper"
         ]
       },
-      "max_damage": 236,
+      "max_damage": 760,
       "tool": {
         "rules": [
           {
-            "blocks": "#incorrect_for_wooden_tool",
+            "blocks": "#incorrect_for_copper_tool",
             "correct_for_drops": false
           },
           {
             "blocks": "#jkmt:all",
-            "speed": 2,
+            "speed": 5,
             "correct_for_drops": true
           }
         ]
