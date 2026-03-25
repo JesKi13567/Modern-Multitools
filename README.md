@@ -1,4 +1,4 @@
-# Modern-Multitools (MC 1.21.9-11) v1.4.1
+# Modern-Multitools (MC 1.21.9-26.1) v1.4.2
 
 - [简体中文](#zh_cn)
 - [English](#en_us)
