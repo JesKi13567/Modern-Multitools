@@ -1,5 +1,5 @@
 # Modern-Multitools -- 现代化多功能工具
-## v1.4.3 for MC1.21.11-26.2.x
+## v1.4.3 for MC1.21.9-1.21.10
 - [简体中文](#zh_cn)
 - [English](#en_us)
 
