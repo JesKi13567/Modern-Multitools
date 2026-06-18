@@ -16,7 +16,7 @@
 #### 额外方块
 玻璃＆玻璃板、头颅、羊毛＆羊毛地毯、床、蜡烛、蛋糕、蜜脾块、海晶灯、荧石、红石灯、细雪、仙人掌、海龟蛋、嗅探兽蛋、蛙明灯、蜘蛛网、信标。
 
-### 使用 任意材质的剑 + 盾牌 + 铁锭 进行*锻造*，获得盾升级的剑。
+### 使用 任意材质的剑 + 盾牌 + 铁锭 进行*锻造*，获得盾升级的剑。（MC1.21.5+）
 - 多功能工具也可以额外获得盾升级，但需要先切换为剑。
 
 剑的耐久不因盾升级而改变。
@@ -34,7 +34,7 @@ Hint: Netherite Multitools should be **crafted** instead of being ~~smithed~~. (
 #### Extra-Blocks
 Glass & Glass Pane, Heads, Wool & Wool Carpet, Beds, Candles, Cake, Honeycomb Block, Sea Lantern, Glowstone, Redstone Lamp, Powder Snow, Cactus, Turtle Egg, Sniffer Egg, Froglight, Cobweb & Beacon.
 
-### Putting your any-material-sword + shield + iron_ingot to *SMITH* sword-with-shield-upgrade.
+### Putting your any-material-sword + shield + iron_ingot to *SMITH* sword-with-shield-upgrade. (MC1.21.5+)
 - Multitools can also get an extra shield upgrade, but is needed to switch to sword first.
 
 The durability of the sword won't be changed when got a shield upgrade.
