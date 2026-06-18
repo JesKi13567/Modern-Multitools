@@ -1,22 +1,22 @@
 {
-    "pack": {
-        "min_format": 88,
-        "max_format": 101,
-        "description": [
-            "",
-            {
-                "text": "Modern",
-                "color": "gold"
-            },
-            {
-                "text": " Multitools",
-                "color": "yellow"
-            },
-            "\nBy ",
-            {
-                "text": "JK137",
-                "color": "aqua"
-            }
-        ]
-    }
+  "pack": {
+    "min_format": 94,
+    "max_format": 999,
+    "description": [
+      "",
+      {
+        "text": "Modern",
+        "color": "gold"
+      },
+      {
+        "text": " Multitools",
+        "color": "yellow"
+      },
+      "\nBy ",
+      {
+        "text": "JK137",
+        "color": "aqua"
+      }
+    ]
+  }
 }

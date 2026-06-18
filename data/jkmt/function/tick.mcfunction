@@ -1,2 +1,2 @@
-# 检查条件
-execute as @a[gamemode=!spectator] if items entity @s weapon.offhand #jkmt:all[custom_data~{jkmt: ["this"]}] run function jkmt:check
+# 检查玩家副手
+execute as @a[gamemode=!spectator] if items entity @s weapon.offhand #jkmt:all[custom_data~{jkmt: ["this"]}] run function jkmt:step/0

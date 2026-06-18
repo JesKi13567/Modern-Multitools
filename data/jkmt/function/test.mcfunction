@@ -29,11 +29,7 @@ give @s copper_hoe
 give @s copper_shovel
 setblock ~ ~-1 ~ crafting_table
 setblock ~ ~2 ~ smithing_table
-give @s iron_ingot 5
-give @s shield
-give @s shield
-give @s shield
-give @s shield
-give @s shield
 give @s netherite_ingot
 give @s netherite_upgrade_smithing_template
+give @s iron_ingot 7
+give @s shield 5
