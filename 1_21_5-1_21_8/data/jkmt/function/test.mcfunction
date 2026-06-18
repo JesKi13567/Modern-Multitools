@@ -1,0 +1,31 @@
+clear
+give @s diamond_axe
+give @s diamond_pickaxe
+give @s diamond_hoe
+give @s diamond_shovel
+give @s golden_axe
+give @s golden_pickaxe
+give @s golden_hoe
+give @s golden_shovel
+give @s stone_axe
+give @s stone_pickaxe
+give @s stone_hoe
+give @s stone_shovel
+give @s iron_axe
+give @s iron_pickaxe
+give @s iron_hoe
+give @s iron_shovel
+give @s wooden_axe
+give @s wooden_pickaxe
+give @s wooden_hoe
+give @s wooden_shovel
+give @s netherite_axe
+give @s netherite_pickaxe
+give @s netherite_hoe
+give @s netherite_shovel
+setblock ~ ~-1 ~ crafting_table
+setblock ~ ~2 ~ smithing_table
+give @s netherite_ingot
+give @s netherite_upgrade_smithing_template
+give @s iron_ingot 6
+give @s shield 6

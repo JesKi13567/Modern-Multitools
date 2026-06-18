@@ -1,43 +1,40 @@
 {
-    "pack": {
-        "pack_format": 57,
-        "supported_formats": [48, 81],
-        "description": [
-            "",
-            {
-                "text": "现代化",
-                "color": "gold"
-            },
-            {
-                "text": " 多功能工具",
-                "color": "yellow"
-            },
-            "\n",
-            {
-                "text": "Modern",
-                "color": "gold"
-            },
-            {
-                "text": " Multitools",
-                "color": "yellow"
-            },
-            "\nBy ",
-            {
-                "text": "JK137",
-                "color": "aqua"
-            }
-        ]
-    },
-    "overlays": {
-        "entries": [
-            {
-                "formats": 48,
-                "directory": "1_21-1_21_1"
-            },
-            {
-                "formats": [71, 81],
-                "directory": "1_21_5-1_21_7"
-            }
-        ]
-    }
+  "pack": {
+    "pack_format": 57,
+    "supported_formats": [
+      48,
+      81
+    ],
+    "description": [
+      "",
+      {
+        "text": "Modern",
+        "color": "gold"
+      },
+      {
+        "text": " Multitools",
+        "color": "yellow"
+      },
+      "\nBy ",
+      {
+        "text": "JK137",
+        "color": "aqua"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": 48,
+        "directory": "1_21-1_21_1"
+      },
+      {
+        "formats": [
+          71,
+          81
+        ],
+        "directory": "1_21_5-1_21_8"
+      }
+    ]
+  }
 }

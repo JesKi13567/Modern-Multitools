@@ -23,11 +23,7 @@ give @s netherite_axe
 give @s netherite_pickaxe
 give @s netherite_hoe
 give @s netherite_shovel
-give @s crafting_table
-give @s smithing_table
-give @s iron_ingot 5
-give @s shield
-give @s shield
-give @s shield
-give @s shield
-give @s shield
+setblock ~ ~-1 ~ crafting_table
+setblock ~ ~2 ~ smithing_table
+give @s netherite_ingot
+give @s netherite_upgrade_smithing_template

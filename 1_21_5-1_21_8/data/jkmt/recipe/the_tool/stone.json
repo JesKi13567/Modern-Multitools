@@ -2,14 +2,14 @@
   "type": "crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "netherite_axe",
-    "netherite_pickaxe",
-    "netherite_hoe",
-    "netherite_shovel"
+    "stone_axe",
+    "stone_pickaxe",
+    "stone_hoe",
+    "stone_shovel"
   ],
   "result": {
     "count": 1,
-    "id": "netherite_axe",
+    "id": "stone_axe",
     "components": {
       "lore": [
         {
@@ -20,19 +20,20 @@
       ],
       "custom_data": {
         "jkmt": [
-          "netherite"
+          "this",
+          "stone"
         ]
       },
-      "max_damage": 8124,
+      "max_damage": 524,
       "tool": {
         "rules": [
           {
-            "blocks": "#incorrect_for_netherite_tool",
+            "blocks": "#incorrect_for_stone_tool",
             "correct_for_drops": false
           },
           {
             "blocks": "#jkmt:all",
-            "speed": 9,
+            "speed": 4,
             "correct_for_drops": true
           }
         ]
