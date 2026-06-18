@@ -19,4 +19,11 @@ give @s wooden_axe
 give @s wooden_pickaxe
 give @s wooden_hoe
 give @s wooden_shovel
-give @s crafting_table
+give @s netherite_axe
+give @s netherite_pickaxe
+give @s netherite_hoe
+give @s netherite_shovel
+setblock ~ ~-1 ~ crafting_table
+setblock ~ ~2 ~ smithing_table
+give @s netherite_ingot
+give @s netherite_upgrade_smithing_template

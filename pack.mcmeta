@@ -1,29 +1,21 @@
 {
-    "pack": {
-        "pack_format": 41,
-        "description": [
-            "",
-            {
-                "text": "现代化",
-                "color": "gold"
-            },
-            {
-                "text": " 多功能工具\n",
-                "color": "yellow"
-            },
-            {
-                "text": "Modern",
-                "color": "gold"
-            },
-            {
-                "text": " Multitools\n",
-                "color": "yellow"
-            },
-            "by ",
-            {
-                "text": "JK137",
-                "color": "aqua"
-            }
-        ]
-    }
+  "pack": {
+    "pack_format": 41,
+    "description": [
+      "",
+      {
+        "text": "Modern",
+        "color": "gold"
+      },
+      {
+        "text": " Multitools",
+        "color": "yellow"
+      },
+      "\nBy ",
+      {
+        "text": "JK137",
+        "color": "aqua"
+      }
+    ]
+  }
 }

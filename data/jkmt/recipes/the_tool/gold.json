@@ -3,36 +3,41 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "netherite_axe"
+      "item": "golden_axe"
     },
     {
-      "item": "netherite_pickaxe"
+      "item": "golden_pickaxe"
     },
     {
-      "item": "netherite_hoe"
+      "item": "golden_hoe"
     },
     {
-      "item": "netherite_shovel"
+      "item": "golden_shovel"
     }
   ],
   "result": {
     "count": 1,
-    "id": "netherite_axe",
+    "id": "golden_axe",
     "components": {
       "lore": [
         "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
       ],
       "custom_data": {
         "jkmt": [
-          "netherite"
+          "this",
+          "gold"
         ]
       },
-      "max_damage": 8124,
+      "max_damage": 128,
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:diamond",
-            "speed": 9,
+            "blocks": "#incorrect_for_gold_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#jkmt:all",
+            "speed": 12,
             "correct_for_drops": true
           }
         ]

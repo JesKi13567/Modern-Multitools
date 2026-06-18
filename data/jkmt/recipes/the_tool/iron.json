@@ -3,36 +3,41 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "wooden_axe"
+      "item": "iron_axe"
     },
     {
-      "item": "wooden_pickaxe"
+      "item": "iron_pickaxe"
     },
     {
-      "item": "wooden_hoe"
+      "item": "iron_hoe"
     },
     {
-      "item": "wooden_shovel"
+      "item": "iron_shovel"
     }
   ],
   "result": {
     "count": 1,
-    "id": "wooden_axe",
+    "id": "iron_axe",
     "components": {
       "lore": [
         "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
       ],
       "custom_data": {
         "jkmt": [
-          "wood"
+          "this",
+          "iron"
         ]
       },
-      "max_damage": 236,
+      "max_damage": 1000,
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:wood",
-            "speed": 2,
+            "blocks": "#incorrect_for_iron_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#jkmt:all",
+            "speed": 6,
             "correct_for_drops": true
           }
         ]

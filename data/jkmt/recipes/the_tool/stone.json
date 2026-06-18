@@ -3,36 +3,41 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "iron_axe"
+      "item": "stone_axe"
     },
     {
-      "item": "iron_pickaxe"
+      "item": "stone_pickaxe"
     },
     {
-      "item": "iron_hoe"
+      "item": "stone_hoe"
     },
     {
-      "item": "iron_shovel"
+      "item": "stone_shovel"
     }
   ],
   "result": {
     "count": 1,
-    "id": "iron_axe",
+    "id": "stone_axe",
     "components": {
       "lore": [
         "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
       ],
       "custom_data": {
         "jkmt": [
-          "iron"
+          "this",
+          "stone"
         ]
       },
-      "max_damage": 1000,
+      "max_damage": 524,
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:iron",
-            "speed": 6,
+            "blocks": "#incorrect_for_stone_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#jkmt:all",
+            "speed": 4,
             "correct_for_drops": true
           }
         ]

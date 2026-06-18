@@ -24,6 +24,7 @@
       ],
       "custom_data": {
         "jkmt": [
+          "this",
           "diamond"
         ]
       },
@@ -31,7 +32,11 @@
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:diamond",
+            "blocks": "#incorrect_for_diamond_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#jkmt:all",
             "speed": 8,
             "correct_for_drops": true
           }

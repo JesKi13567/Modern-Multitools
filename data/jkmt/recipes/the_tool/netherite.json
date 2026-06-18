@@ -3,36 +3,41 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "stone_axe"
+      "item": "netherite_axe"
     },
     {
-      "item": "stone_pickaxe"
+      "item": "netherite_pickaxe"
     },
     {
-      "item": "stone_hoe"
+      "item": "netherite_hoe"
     },
     {
-      "item": "stone_shovel"
+      "item": "netherite_shovel"
     }
   ],
   "result": {
     "count": 1,
-    "id": "stone_axe",
+    "id": "netherite_axe",
     "components": {
       "lore": [
         "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
       ],
       "custom_data": {
         "jkmt": [
-          "stone"
+          "this",
+          "netherite"
         ]
       },
-      "max_damage": 524,
+      "max_damage": 8124,
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:stone",
-            "speed": 4,
+            "blocks": "#incorrect_for_netherite_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#jkmt:all",
+            "speed": 9,
             "correct_for_drops": true
           }
         ]

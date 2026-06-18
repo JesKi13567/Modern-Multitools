@@ -3,36 +3,41 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "golden_axe"
+      "item": "wooden_axe"
     },
     {
-      "item": "golden_pickaxe"
+      "item": "wooden_pickaxe"
     },
     {
-      "item": "golden_hoe"
+      "item": "wooden_hoe"
     },
     {
-      "item": "golden_shovel"
+      "item": "wooden_shovel"
     }
   ],
   "result": {
     "count": 1,
-    "id": "golden_axe",
+    "id": "wooden_axe",
     "components": {
       "lore": [
         "{\"color\":\"aqua\",\"italic\":false,\"text\":\"🔨\"}"
       ],
       "custom_data": {
         "jkmt": [
-          "gold"
+          "this",
+          "wood"
         ]
       },
-      "max_damage": 128,
+      "max_damage": 236,
       "tool": {
         "rules": [
           {
-            "blocks": "#jkmt:wood",
-            "speed": 12,
+            "blocks": "#incorrect_for_wooden_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#jkmt:all",
+            "speed": 2,
             "correct_for_drops": true
           }
         ]
